@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("roboto.ttf");
+}
+* {
+  font-family: "Roboto";
+}
+body {
+  padding-top: 50px;
+}
+div {
+  max-width: 450px;
+  margin: 0 auto;
+}
+#logo {
+  font-size: 90px;
+  margin: 0px;
+  line-height: 84px;
+}
+#d1 h3 {
+  margin: 0px;
+}
+#issues img{
+  height: 200px;
+}
+a {
+  color: black
+}
+@media (max-width: 500px) {
+  #logo {
+    font-size: 60px;
+  }
+}
+.crypto {
+  word-wrap: break-word;
+}
