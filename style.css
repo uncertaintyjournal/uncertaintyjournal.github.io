@@ -34,3 +34,10 @@ a {
 .crypto {
   word-wrap: break-word;
 }
+#issues {
+  display: flex;
+}
+#issues a {
+  margin-left: 5px;
+  margin-right: 5px;
+}
